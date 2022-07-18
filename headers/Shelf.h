@@ -7,7 +7,11 @@
 
 
 class Shelf {
+public:
 
+
+private:
+    int howMuchBooks;
 };
 
 

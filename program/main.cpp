@@ -1,6 +1,7 @@
 #include <iostream>
-
+#include "../headers/TestClass.h"
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    TestClass someObject;
+    std::cout<<someObject.letsShowA();
     return 0;
 }
