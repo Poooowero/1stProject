@@ -10,7 +10,7 @@ public:
     Book(unsigned short releaseYear, unsigned short numberOfPages, unsigned int basePrice, float usersRating,
          bool paperback, bool isBorrowed, bool reservation, const std::string &borrowedBy, const std::string &author,
          const std::string &publishingHouse, const std::string &addDate, const std::string &addedBy,
-         const std::string &reservedBy);
+         const std::string &reservedBy,unsigned int bookId);
 
     ~Book();
 
@@ -18,7 +18,7 @@ private:
     unsigned short int releaseYear;
     unsigned short int numberOfPages;
     unsigned int basePrice;
-    static int BookId;
+    unsigned int bookId;
     float usersRating;
     bool paperback;
     bool isBorrowed;
