@@ -4,14 +4,17 @@
 
 #ifndef INC_1STPROJECT_SHELF_H
 #define INC_1STPROJECT_SHELF_H
-
+#include <iostream>
+#include "BookTypes.h"
 
 class Shelf {
 public:
 
 
 private:
-    int howMuchBooks;
+    unsigned int shelfCapacity;
+    unsigned int howMuchBooksOnShelf;
+    bookTypes booksType;
 };
 
 
