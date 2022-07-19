@@ -11,7 +11,7 @@
 
 class BookShelf {
 public:
-
+    void addShelf();
 
 private:
     int howMuchShelves;

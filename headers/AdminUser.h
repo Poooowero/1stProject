@@ -5,8 +5,13 @@
 #ifndef INC_1STPROJECT_ADMINUSER_H
 #define INC_1STPROJECT_ADMINUSER_H
 
+#include "User.h"
 
 class AdminUser {
+public:
+    bool borrowBook(bookPtr);
+
+private:
 
 };
 
