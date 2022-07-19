@@ -11,7 +11,12 @@ public:
     void loggingMenu();
     void typeLogin();
     void typePasswd();
-
+    void registration();
+    void typeYourName();
+    void typeYourSecondName();
+    void createYourLogin();
+    void createYourPasswd();
+    void typeYourPasswdAgain();
     TextUserInterface();
 
     virtual ~TextUserInterface();

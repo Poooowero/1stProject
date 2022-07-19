@@ -19,6 +19,30 @@ void TextUserInterface::typePasswd() {
     std::cout<<"Type your password: ";
 }
 
+void TextUserInterface::registration() {
+    std::cout<<"------  REGISTRATION  ------"<<std::endl;
+}
+
+void TextUserInterface::typeYourName() {
+    std::cout<<"Type your name: ";
+}
+
+void TextUserInterface::typeYourSecondName() {
+    std::cout<<"Type your second name: ";
+}
+
+void TextUserInterface::createYourLogin() {
+    std::cout<<"Create your login: ";
+}
+
+void TextUserInterface::createYourPasswd() {
+    std::cout<<"Please, create new password: ";
+}
+
+void TextUserInterface::typeYourPasswdAgain() {
+    std::cout<<"Please, type your password again: ";
+}
+
 TextUserInterface::TextUserInterface() {}
 
 TextUserInterface::~TextUserInterface() {

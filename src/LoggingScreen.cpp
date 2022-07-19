@@ -12,12 +12,28 @@ int LoggingScreen::menu() {
 }
 
 bool LoggingScreen::loggingIn() {
-    using namespace std;
-    string log;
+    std::string log;
     std::string passwd;
     interface.typeLogin();
-    cin>>log;
+    std::cin>>log;
     interface.typePasswd();
-    cin>>passwd;
+    std::cin>>passwd;
     //tutaj szukanie w pliku json poprawnego konta!!!!!!!!!!!!!!!!!!!!
+}
+
+bool LoggingScreen::signUp() {
+    std::string name;
+    std::string secondName;
+    std::string login;
+    std::string passwd;
+    std::string repasswd;
+    interface.registration();
+    interface.typeYourName();
+    std::cin>>name;
+    interface.typeYourSecondName();
+    std::cin>>secondName;
+    interface.createYourLogin();
+    std::cin>>login;
+
+
 }

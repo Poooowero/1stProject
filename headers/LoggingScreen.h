@@ -12,6 +12,7 @@ class LoggingScreen {
 public:
     int menu();
     bool loggingIn();
+    bool signUp();
 
 private:
     TextUserInterface interface;
