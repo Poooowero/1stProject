@@ -5,9 +5,16 @@
 #ifndef INC_1STPROJECT_LOGGINGSCREEN_H
 #define INC_1STPROJECT_LOGGINGSCREEN_H
 
-
+#include <iostream>
+#include "TextUserInterface.h"
 class LoggingScreen {
 
+public:
+    int menu();
+    bool loggingIn();
+
+private:
+    TextUserInterface interface;
 };
 
 

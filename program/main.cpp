@@ -1,7 +1,8 @@
 #include <iostream>
-#include "../headers/TestClass.h"
+#include "../headers/LoggingScreen.h"
 int main() {
-    TestClass someObject;
-    std::cout<<someObject.letsShowA();
+    LoggingScreen newLoggingScreen;
+    if(newLoggingScreen.menu()==1);
+    newLoggingScreen.loggingIn();
     return 0;
 }
