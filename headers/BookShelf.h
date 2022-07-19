@@ -5,6 +5,9 @@
 #ifndef INC_1STPROJECT_BOOKSHELF_H
 #define INC_1STPROJECT_BOOKSHELF_H
 
+#include <iostream>
+#include <vector>
+#include "Shelf.h"
 
 class BookShelf {
 public:
@@ -12,6 +15,7 @@ public:
 
 private:
     int howMuchShelves;
+    std::vector<shelfPtr> shelves;
 };
 
 
